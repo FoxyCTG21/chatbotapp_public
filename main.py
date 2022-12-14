@@ -2,7 +2,7 @@ from kivy.app import App
 import openai
 
 # API de la cuenta de OpenAI para acceder a GPT3
-openai.api_key = "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"
+openai.api_key = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 class MainApp(App):
     # Hacemos una variable de tipo STR donde guardaremos la conversación
