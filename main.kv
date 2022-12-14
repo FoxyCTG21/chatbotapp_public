@@ -1,0 +1,22 @@
+GridLayout:
+    rows: 2
+    Label:
+        text_size: self.size
+        halign: 'left'
+        valign: 'bottom'
+        text: ""
+        markup: True
+        id: my_label
+
+    GridLayout:
+        cols: 2
+        size_hint: 1, .15
+        TextInput:
+            id: my_textinput
+        Button:
+            text: "Enviar"
+            size_hint: .3, 1
+            #width: "100dp"
+            #height: "100dp"
+            on_release:
+                app.set_text()
